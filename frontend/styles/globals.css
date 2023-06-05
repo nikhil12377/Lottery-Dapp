@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  background: linear-gradient(
+    -45deg,
+    #e250e5,
+    #4b50e6,
+    #e250e5,
+    #4b50e6
+  ) !important;
+}
+
+.box {
+  background: black;
+  height: 100vh;
+}
+
+.box * {
+  color: white;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.submit {
+  background: linear-gradient(
+    -45deg,
+    #e250e5,
+    #4b50e6,
+    #e250e5,
+    #4b50e6
+  ) !important;
+}
